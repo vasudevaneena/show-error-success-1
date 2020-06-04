@@ -1,0 +1,4144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot matches snapshot 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "getWrappingComponentRenderer": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+    "wrapInvoke": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": App {
+      "_reactInternalFiber": FiberNode {
+        "_debugHookTypes": null,
+        "_debugID": 198,
+        "_debugIsCurrentlyTiming": false,
+        "_debugNeedsRemount": false,
+        "_debugOwner": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 196,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 193,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 193,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <section>
+                    <header>
+                      <h1>
+                        HealthShare Front-End Test
+                      </h1>
+                    </header>
+                    <form>
+                      <div
+                        class="success"
+                        id="test-success"
+                      >
+                        <div />
+                      </div>
+                      <label>
+                        Email address
+                        <input
+                          id="test-email"
+                          name="email"
+                          placeholder="e.g name@example.com"
+                          type="text"
+                          value=""
+                        />
+                      </label>
+                      <label>
+                        Password
+                        <input
+                          id="test-password"
+                          name="password"
+                          placeholder="••••••••"
+                          value=""
+                        />
+                      </label>
+                      <button
+                        class="cta"
+                        id="test-button"
+                        type="submit"
+                      >
+                        Register
+                      </button>
+                    </form>
+                  </section>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 18,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseQueue": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": [Circular],
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+                      refProp={null}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+                "baseState": null,
+                "effects": null,
+                "shared": Object {
+                  "pending": null,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={Object {}}
+                refProp={null}
+                wrappingComponentProps={null}
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": FiberRootNode {
+              "callbackExpirationTime": 0,
+              "callbackNode": null,
+              "callbackPriority": 90,
+              "containerInfo": <div>
+                <section>
+                  <header>
+                    <h1>
+                      HealthShare Front-End Test
+                    </h1>
+                  </header>
+                  <form>
+                    <div
+                      class="success"
+                      id="test-success"
+                    >
+                      <div />
+                    </div>
+                    <label>
+                      Email address
+                      <input
+                        id="test-email"
+                        name="email"
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />
+                    </label>
+                    <label>
+                      Password
+                      <input
+                        id="test-password"
+                        name="password"
+                        placeholder="••••••••"
+                        value=""
+                      />
+                    </label>
+                    <button
+                      class="cta"
+                      id="test-button"
+                      type="submit"
+                    >
+                      Register
+                    </button>
+                  </form>
+                </section>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedExpirationTime": 0,
+              "finishedWork": null,
+              "firstPendingTime": 0,
+              "firstSuspendedTime": 0,
+              "hydrate": false,
+              "interactionThreadID": 18,
+              "lastExpiredTime": 0,
+              "lastPingedTime": 0,
+              "lastSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextKnownPendingLevel": 0,
+              "pendingChildren": null,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "tag": 0,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseQueue": null,
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "effects": null,
+              "shared": Object {
+                "pending": null,
+              },
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": Object {
+            "baseQueue": null,
+            "baseState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "effects": null,
+            "shared": Object {
+              "pending": null,
+            },
+          },
+        },
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 200,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 202,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 205,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": "h1",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": "HealthShare Front-End Test",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": "HealthShare Front-End Test",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <h1>
+                HealthShare Front-End Test
+              </h1>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "h1",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": "header",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": <h1>
+                HealthShare Front-End Test
+              </h1>,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": <h1>
+                HealthShare Front-End Test
+              </h1>,
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 203,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 208,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 213,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 215,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "div",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <div />,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "div",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "dependencies": null,
+                  "effectTag": 0,
+                  "elementType": "div",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <div>
+                      
+                    </div>,
+                    "className": "success",
+                    "id": "test-success",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <div>
+                      
+                    </div>,
+                    "className": "success",
+                    "id": "test-success",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <div
+                    class="success"
+                    id="test-success"
+                  >
+                    <div />
+                  </div>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "div",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 1,
+                "elementType": [Function],
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "props": Object {
+                    "email": "",
+                    "errors": Object {},
+                    "password": "",
+                    "succesResponse": "",
+                  },
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "props": Object {
+                    "email": "",
+                    "errors": Object {},
+                    "password": "",
+                    "succesResponse": "",
+                  },
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 209,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 218,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": null,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "Email address",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "Email address",
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 219,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "input",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "id": "test-email",
+                        "name": "email",
+                        "onChange": [Function],
+                        "placeholder": "e.g name@example.com",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "id": "test-email",
+                        "name": "email",
+                        "onChange": [Function],
+                        "placeholder": "e.g name@example.com",
+                        "type": "text",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <input
+                        id="test-email"
+                        name="email"
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "input",
+                      "updateQueue": null,
+                    },
+                    "stateNode": Email address,
+                    "tag": 6,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "dependencies": null,
+                  "effectTag": 0,
+                  "elementType": "label",
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": Array [
+                      "Email address",
+                      <input
+                        id="test-email"
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />,
+                    ],
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": Array [
+                      "Email address",
+                      <input
+                        id="test-email"
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />,
+                    ],
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 210,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 223,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": null,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "Password",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "Password",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugHookTypes": null,
+                        "_debugID": 224,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugNeedsRemount": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "dependencies": null,
+                        "effectTag": 0,
+                        "elementType": "input",
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 1,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "id": "test-password",
+                          "name": "password",
+                          "onChange": [Function],
+                          "placeholder": "••••••••",
+                          "value": "",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "id": "test-password",
+                          "name": "password",
+                          "onChange": [Function],
+                          "placeholder": "••••••••",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <input
+                          id="test-password"
+                          name="password"
+                          placeholder="••••••••"
+                          value=""
+                        />,
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": "input",
+                        "updateQueue": null,
+                      },
+                      "stateNode": Password,
+                      "tag": 6,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "label",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 2,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": Array [
+                        "Password",
+                        <input
+                          id="test-password"
+                          name="password"
+                          onChange={[Function]}
+                          placeholder="••••••••"
+                          value=""
+                        />,
+                      ],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": Array [
+                        "Password",
+                        <input
+                          id="test-password"
+                          name="password"
+                          onChange={[Function]}
+                          placeholder="••••••••"
+                          value=""
+                        />,
+                      ],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 211,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "button",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 3,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "Register",
+                        "className": "cta",
+                        "id": "test-button",
+                        "onClick": [Function],
+                        "type": "submit",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "Register",
+                        "className": "cta",
+                        "id": "test-button",
+                        "onClick": [Function],
+                        "type": "submit",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <button
+                        class="cta"
+                        id="test-button"
+                        type="submit"
+                      >
+                        Register
+                      </button>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "button",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <label>
+                      Password
+                      <input
+                        id="test-password"
+                        name="password"
+                        placeholder="••••••••"
+                        value=""
+                      />
+                    </label>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "label",
+                    "updateQueue": null,
+                  },
+                  "stateNode": <label>
+                    Email address
+                    <input
+                      id="test-email"
+                      name="email"
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />
+                  </label>,
+                  "tag": 5,
+                  "treeBaseDuration": 0,
+                  "type": "label",
+                  "updateQueue": null,
+                },
+                "stateNode": null,
+                "tag": 0,
+                "treeBaseDuration": 0,
+                "type": [Function],
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": "form",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  <Response
+                    props={
+                      Object {
+                        "email": "",
+                        "errors": Object {},
+                        "password": "",
+                        "succesResponse": "",
+                      }
+                    }
+                  />,
+                  <label>
+                    Email address
+                    <input
+                      id="test-email"
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />
+                  </label>,
+                  <label>
+                    Password
+                    <input
+                      id="test-password"
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="••••••••"
+                      value=""
+                    />
+                  </label>,
+                  <button
+                    className="cta"
+                    id="test-button"
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    Register
+                  </button>,
+                ],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  <Response
+                    props={
+                      Object {
+                        "email": "",
+                        "errors": Object {},
+                        "password": "",
+                        "succesResponse": "",
+                      }
+                    }
+                  />,
+                  <label>
+                    Email address
+                    <input
+                      id="test-email"
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />
+                  </label>,
+                  <label>
+                    Password
+                    <input
+                      id="test-password"
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="••••••••"
+                      value=""
+                    />
+                  </label>,
+                  <button
+                    className="cta"
+                    id="test-button"
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    Register
+                  </button>,
+                ],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <form>
+                <div
+                  class="success"
+                  id="test-success"
+                >
+                  <div />
+                </div>
+                <label>
+                  Email address
+                  <input
+                    id="test-email"
+                    name="email"
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />
+                </label>
+                <label>
+                  Password
+                  <input
+                    id="test-password"
+                    name="password"
+                    placeholder="••••••••"
+                    value=""
+                  />
+                </label>
+                <button
+                  class="cta"
+                  id="test-button"
+                  type="submit"
+                >
+                  Register
+                </button>
+              </form>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "form",
+              "updateQueue": null,
+            },
+            "stateNode": <header>
+              <h1>
+                HealthShare Front-End Test
+              </h1>
+            </header>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "header",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 0,
+          "elementType": "section",
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <header>
+                <h1>
+                  HealthShare Front-End Test
+                </h1>
+              </header>,
+              <form>
+                <Response
+                  props={
+                    Object {
+                      "email": "",
+                      "errors": Object {},
+                      "password": "",
+                      "succesResponse": "",
+                    }
+                  }
+                />
+                <label>
+                  Email address
+                  <input
+                    id="test-email"
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />
+                </label>
+                <label>
+                  Password
+                  <input
+                    id="test-password"
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="••••••••"
+                    value=""
+                  />
+                </label>
+                <button
+                  className="cta"
+                  id="test-button"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  Register
+                </button>
+              </form>,
+            ],
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <header>
+                <h1>
+                  HealthShare Front-End Test
+                </h1>
+              </header>,
+              <form>
+                <Response
+                  props={
+                    Object {
+                      "email": "",
+                      "errors": Object {},
+                      "password": "",
+                      "succesResponse": "",
+                    }
+                  }
+                />
+                <label>
+                  Email address
+                  <input
+                    id="test-email"
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />
+                </label>
+                <label>
+                  Password
+                  <input
+                    id="test-password"
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="••••••••"
+                    value=""
+                  />
+                </label>
+                <button
+                  className="cta"
+                  id="test-button"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  Register
+                </button>
+              </form>,
+            ],
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <section>
+            <header>
+              <h1>
+                HealthShare Front-End Test
+              </h1>
+            </header>
+            <form>
+              <div
+                class="success"
+                id="test-success"
+              >
+                <div />
+              </div>
+              <label>
+                Email address
+                <input
+                  id="test-email"
+                  name="email"
+                  placeholder="e.g name@example.com"
+                  type="text"
+                  value=""
+                />
+              </label>
+              <label>
+                Password
+                <input
+                  id="test-password"
+                  name="password"
+                  placeholder="••••••••"
+                  value=""
+                />
+              </label>
+              <button
+                class="cta"
+                id="test-button"
+                type="submit"
+              >
+                Register
+              </button>
+            </form>
+          </section>,
+          "tag": 5,
+          "treeBaseDuration": 0,
+          "type": "section",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "dependencies": null,
+        "effectTag": 1,
+        "elementType": [Function],
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {},
+        "memoizedState": Object {
+          "email": "",
+          "errors": Object {},
+          "password": "",
+          "succesResponse": "",
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {},
+        "ref": null,
+        "return": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 196,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {},
+            "wrappingComponentProps": null,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {},
+            "refProp": null,
+            "wrappingComponentProps": null,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 193,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 193,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 1073741823,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <section>
+                    <header>
+                      <h1>
+                        HealthShare Front-End Test
+                      </h1>
+                    </header>
+                    <form>
+                      <div
+                        class="success"
+                        id="test-success"
+                      >
+                        <div />
+                      </div>
+                      <label>
+                        Email address
+                        <input
+                          id="test-email"
+                          name="email"
+                          placeholder="e.g name@example.com"
+                          type="text"
+                          value=""
+                        />
+                      </label>
+                      <label>
+                        Password
+                        <input
+                          id="test-password"
+                          name="password"
+                          placeholder="••••••••"
+                          value=""
+                        />
+                      </label>
+                      <button
+                        class="cta"
+                        id="test-button"
+                        type="submit"
+                      >
+                        Register
+                      </button>
+                    </form>
+                  </section>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 18,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseQueue": Object {
+                  "callback": null,
+                  "expirationTime": 1073741823,
+                  "next": [Circular],
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={Object {}}
+                      refProp={null}
+                      wrappingComponentProps={null}
+                    />,
+                  },
+                  "priority": 97,
+                  "suspenseConfig": null,
+                  "tag": 0,
+                },
+                "baseState": null,
+                "effects": null,
+                "shared": Object {
+                  "pending": null,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": null,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={Object {}}
+                refProp={null}
+                wrappingComponentProps={null}
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": FiberRootNode {
+              "callbackExpirationTime": 0,
+              "callbackNode": null,
+              "callbackPriority": 90,
+              "containerInfo": <div>
+                <section>
+                  <header>
+                    <h1>
+                      HealthShare Front-End Test
+                    </h1>
+                  </header>
+                  <form>
+                    <div
+                      class="success"
+                      id="test-success"
+                    >
+                      <div />
+                    </div>
+                    <label>
+                      Email address
+                      <input
+                        id="test-email"
+                        name="email"
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />
+                    </label>
+                    <label>
+                      Password
+                      <input
+                        id="test-password"
+                        name="password"
+                        placeholder="••••••••"
+                        value=""
+                      />
+                    </label>
+                    <button
+                      class="cta"
+                      id="test-button"
+                      type="submit"
+                    >
+                      Register
+                    </button>
+                  </form>
+                </section>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedExpirationTime": 0,
+              "finishedWork": null,
+              "firstPendingTime": 0,
+              "firstSuspendedTime": 0,
+              "hydrate": false,
+              "interactionThreadID": 18,
+              "lastExpiredTime": 0,
+              "lastPingedTime": 0,
+              "lastSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextKnownPendingLevel": 0,
+              "pendingChildren": null,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "pingCache": null,
+              "tag": 0,
+              "timeoutHandle": -1,
+            },
+            "tag": 3,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseQueue": null,
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "effects": null,
+              "shared": Object {
+                "pending": null,
+              },
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": Object {
+            "baseQueue": null,
+            "baseState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "effects": null,
+            "shared": Object {
+              "pending": null,
+            },
+          },
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 1,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": Object {
+          "baseQueue": null,
+          "baseState": Object {
+            "email": "",
+            "errors": Object {},
+            "password": "",
+            "succesResponse": "",
+          },
+          "effects": null,
+          "shared": Object {
+            "pending": null,
+          },
+        },
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "handleSubmit": [Function],
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "email": "",
+        "errors": Object {},
+        "password": "",
+        "succesResponse": "",
+      },
+      "updateEmail": [Function],
+      "updatePassword": [Function],
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+      "user": Object {
+        "email": "",
+        "password": "",
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {},
+    "ref": null,
+    "rendered": Object {
+      "instance": <section>
+        <header>
+          <h1>
+            HealthShare Front-End Test
+          </h1>
+        </header>
+        <form>
+          <div
+            class="success"
+            id="test-success"
+          >
+            <div />
+          </div>
+          <label>
+            Email address
+            <input
+              id="test-email"
+              name="email"
+              placeholder="e.g name@example.com"
+              type="text"
+              value=""
+            />
+          </label>
+          <label>
+            Password
+            <input
+              id="test-password"
+              name="password"
+              placeholder="••••••••"
+              value=""
+            />
+          </label>
+          <button
+            class="cta"
+            id="test-button"
+            type="submit"
+          >
+            Register
+          </button>
+        </form>
+      </section>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header>
+            <h1>
+              HealthShare Front-End Test
+            </h1>
+          </header>,
+          <form>
+            <Response
+              props={
+                Object {
+                  "email": "",
+                  "errors": Object {},
+                  "password": "",
+                  "succesResponse": "",
+                }
+              }
+            />
+            <label>
+              Email address
+              <input
+                id="test-email"
+                name="email"
+                onChange={[Function]}
+                placeholder="e.g name@example.com"
+                type="text"
+                value=""
+              />
+            </label>
+            <label>
+              Password
+              <input
+                id="test-password"
+                name="password"
+                onChange={[Function]}
+                placeholder="••••••••"
+                value=""
+              />
+            </label>
+            <button
+              className="cta"
+              id="test-button"
+              onClick={[Function]}
+              type="submit"
+            >
+              Register
+            </button>
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <header>
+            <h1>
+              HealthShare Front-End Test
+            </h1>
+          </header>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h1>
+              HealthShare Front-End Test
+            </h1>,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <h1>
+                HealthShare Front-End Test
+              </h1>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "HealthShare Front-End Test",
+              },
+              "ref": null,
+              "rendered": Array [
+                "HealthShare Front-End Test",
+              ],
+              "type": "h1",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": <form>
+            <div
+              class="success"
+              id="test-success"
+            >
+              <div />
+            </div>
+            <label>
+              Email address
+              <input
+                id="test-email"
+                name="email"
+                placeholder="e.g name@example.com"
+                type="text"
+                value=""
+              />
+            </label>
+            <label>
+              Password
+              <input
+                id="test-password"
+                name="password"
+                placeholder="••••••••"
+                value=""
+              />
+            </label>
+            <button
+              class="cta"
+              id="test-button"
+              type="submit"
+            >
+              Register
+            </button>
+          </form>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Response
+                props={
+                  Object {
+                    "email": "",
+                    "errors": Object {},
+                    "password": "",
+                    "succesResponse": "",
+                  }
+                }
+              />,
+              <label>
+                Email address
+                <input
+                  id="test-email"
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="e.g name@example.com"
+                  type="text"
+                  value=""
+                />
+              </label>,
+              <label>
+                Password
+                <input
+                  id="test-password"
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="••••••••"
+                  value=""
+                />
+              </label>,
+              <button
+                className="cta"
+                id="test-button"
+                onClick={[Function]}
+                type="submit"
+              >
+                Register
+              </button>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "props": Object {
+                  "email": "",
+                  "errors": Object {},
+                  "password": "",
+                  "succesResponse": "",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": <div
+                  class="success"
+                  id="test-success"
+                >
+                  <div />
+                </div>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div>
+                    
+                  </div>,
+                  "className": "success",
+                  "id": "test-success",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <div />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "",
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": <label>
+                Email address
+                <input
+                  id="test-email"
+                  name="email"
+                  placeholder="e.g name@example.com"
+                  type="text"
+                  value=""
+                />
+              </label>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Email address",
+                  <input
+                    id="test-email"
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Email address",
+                Object {
+                  "instance": <input
+                    id="test-email"
+                    name="email"
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "id": "test-email",
+                    "name": "email",
+                    "onChange": [Function],
+                    "placeholder": "e.g name@example.com",
+                    "type": "text",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": <label>
+                Password
+                <input
+                  id="test-password"
+                  name="password"
+                  placeholder="••••••••"
+                  value=""
+                />
+              </label>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Password",
+                  <input
+                    id="test-password"
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="••••••••"
+                    value=""
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "Password",
+                Object {
+                  "instance": <input
+                    id="test-password"
+                    name="password"
+                    placeholder="••••••••"
+                    value=""
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "id": "test-password",
+                    "name": "password",
+                    "onChange": [Function],
+                    "placeholder": "••••••••",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "input",
+                },
+              ],
+              "type": "label",
+            },
+            Object {
+              "instance": <button
+                class="cta"
+                id="test-button"
+                type="submit"
+              >
+                Register
+              </button>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Register",
+                "className": "cta",
+                "id": "test-button",
+                "onClick": [Function],
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Register",
+              ],
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "section",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": App {
+        "_reactInternalFiber": FiberNode {
+          "_debugHookTypes": null,
+          "_debugID": 198,
+          "_debugIsCurrentlyTiming": false,
+          "_debugNeedsRemount": false,
+          "_debugOwner": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 196,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 193,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 193,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": FiberRootNode {
+                  "callbackExpirationTime": 0,
+                  "callbackNode": null,
+                  "callbackPriority": 90,
+                  "containerInfo": <div>
+                    <section>
+                      <header>
+                        <h1>
+                          HealthShare Front-End Test
+                        </h1>
+                      </header>
+                      <form>
+                        <div
+                          class="success"
+                          id="test-success"
+                        >
+                          <div />
+                        </div>
+                        <label>
+                          Email address
+                          <input
+                            id="test-email"
+                            name="email"
+                            placeholder="e.g name@example.com"
+                            type="text"
+                            value=""
+                          />
+                        </label>
+                        <label>
+                          Password
+                          <input
+                            id="test-password"
+                            name="password"
+                            placeholder="••••••••"
+                            value=""
+                          />
+                        </label>
+                        <button
+                          class="cta"
+                          id="test-button"
+                          type="submit"
+                        >
+                          Register
+                        </button>
+                      </form>
+                    </section>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedExpirationTime": 0,
+                  "finishedWork": null,
+                  "firstPendingTime": 0,
+                  "firstSuspendedTime": 0,
+                  "hydrate": false,
+                  "interactionThreadID": 18,
+                  "lastExpiredTime": 0,
+                  "lastPingedTime": 0,
+                  "lastSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextKnownPendingLevel": 0,
+                  "pendingChildren": null,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "tag": 0,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseQueue": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": [Circular],
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+                        refProp={null}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                  "baseState": null,
+                  "effects": null,
+                  "shared": Object {
+                    "pending": null,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <section>
+                    <header>
+                      <h1>
+                        HealthShare Front-End Test
+                      </h1>
+                    </header>
+                    <form>
+                      <div
+                        class="success"
+                        id="test-success"
+                      >
+                        <div />
+                      </div>
+                      <label>
+                        Email address
+                        <input
+                          id="test-email"
+                          name="email"
+                          placeholder="e.g name@example.com"
+                          type="text"
+                          value=""
+                        />
+                      </label>
+                      <label>
+                        Password
+                        <input
+                          id="test-password"
+                          name="password"
+                          placeholder="••••••••"
+                          value=""
+                        />
+                      </label>
+                      <button
+                        class="cta"
+                        id="test-button"
+                        type="submit"
+                      >
+                        Register
+                      </button>
+                    </form>
+                  </section>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 18,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseQueue": null,
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+                    refProp={null}
+                    wrappingComponentProps={null}
+                  />,
+                },
+                "effects": null,
+                "shared": Object {
+                  "pending": null,
+                },
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+                "refProp": null,
+                "wrappingComponentProps": null,
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 1,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": Object {
+              "baseQueue": null,
+              "baseState": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "effects": null,
+              "shared": Object {
+                "pending": null,
+              },
+            },
+          },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 200,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 202,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 205,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": "h1",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "HealthShare Front-End Test",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "HealthShare Front-End Test",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <h1>
+                  HealthShare Front-End Test
+                </h1>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "h1",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": "header",
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <h1>
+                  HealthShare Front-End Test
+                </h1>,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <h1>
+                  HealthShare Front-End Test
+                </h1>,
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 203,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugHookTypes": null,
+                  "_debugID": 208,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugNeedsRemount": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 213,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 215,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "div",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <div />,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "div",
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "div",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <div>
+                        
+                      </div>,
+                      "className": "success",
+                      "id": "test-success",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <div>
+                        
+                      </div>,
+                      "className": "success",
+                      "id": "test-success",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <div
+                      class="success"
+                      id="test-success"
+                    >
+                      <div />
+                    </div>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "div",
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "dependencies": null,
+                  "effectTag": 1,
+                  "elementType": [Function],
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "props": Object {
+                      "email": "",
+                      "errors": Object {},
+                      "password": "",
+                      "succesResponse": "",
+                    },
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "props": Object {
+                      "email": "",
+                      "errors": Object {},
+                      "password": "",
+                      "succesResponse": "",
+                    },
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugHookTypes": null,
+                    "_debugID": 209,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugNeedsRemount": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 218,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": null,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "Email address",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "Email address",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugHookTypes": null,
+                        "_debugID": 219,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugNeedsRemount": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "dependencies": null,
+                        "effectTag": 0,
+                        "elementType": "input",
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 1,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "id": "test-email",
+                          "name": "email",
+                          "onChange": [Function],
+                          "placeholder": "e.g name@example.com",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "id": "test-email",
+                          "name": "email",
+                          "onChange": [Function],
+                          "placeholder": "e.g name@example.com",
+                          "type": "text",
+                          "value": "",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <input
+                          id="test-email"
+                          name="email"
+                          placeholder="e.g name@example.com"
+                          type="text"
+                          value=""
+                        />,
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": "input",
+                        "updateQueue": null,
+                      },
+                      "stateNode": Email address,
+                      "tag": 6,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "childExpirationTime": 0,
+                    "dependencies": null,
+                    "effectTag": 0,
+                    "elementType": "label",
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": Array [
+                        "Email address",
+                        <input
+                          id="test-email"
+                          name="email"
+                          onChange={[Function]}
+                          placeholder="e.g name@example.com"
+                          type="text"
+                          value=""
+                        />,
+                      ],
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": Array [
+                        "Email address",
+                        <input
+                          id="test-email"
+                          name="email"
+                          onChange={[Function]}
+                          placeholder="e.g name@example.com"
+                          type="text"
+                          value=""
+                        />,
+                      ],
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugHookTypes": null,
+                      "_debugID": 210,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugNeedsRemount": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugHookTypes": null,
+                        "_debugID": 223,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugNeedsRemount": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "dependencies": null,
+                        "effectTag": 0,
+                        "elementType": null,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "Password",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "Password",
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugHookTypes": null,
+                          "_debugID": 224,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugNeedsRemount": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "dependencies": null,
+                          "effectTag": 0,
+                          "elementType": "input",
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 1,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "id": "test-password",
+                            "name": "password",
+                            "onChange": [Function],
+                            "placeholder": "••••••••",
+                            "value": "",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "id": "test-password",
+                            "name": "password",
+                            "onChange": [Function],
+                            "placeholder": "••••••••",
+                            "value": "",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": null,
+                          "stateNode": <input
+                            id="test-password"
+                            name="password"
+                            placeholder="••••••••"
+                            value=""
+                          />,
+                          "tag": 5,
+                          "treeBaseDuration": 0,
+                          "type": "input",
+                          "updateQueue": null,
+                        },
+                        "stateNode": Password,
+                        "tag": 6,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "childExpirationTime": 0,
+                      "dependencies": null,
+                      "effectTag": 0,
+                      "elementType": "label",
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": Array [
+                          "Password",
+                          <input
+                            id="test-password"
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="••••••••"
+                            value=""
+                          />,
+                        ],
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": Array [
+                          "Password",
+                          <input
+                            id="test-password"
+                            name="password"
+                            onChange={[Function]}
+                            placeholder="••••••••"
+                            value=""
+                          />,
+                        ],
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugHookTypes": null,
+                        "_debugID": 211,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugNeedsRemount": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "dependencies": null,
+                        "effectTag": 0,
+                        "elementType": "button",
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 3,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "Register",
+                          "className": "cta",
+                          "id": "test-button",
+                          "onClick": [Function],
+                          "type": "submit",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "Register",
+                          "className": "cta",
+                          "id": "test-button",
+                          "onClick": [Function],
+                          "type": "submit",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <button
+                          class="cta"
+                          id="test-button"
+                          type="submit"
+                        >
+                          Register
+                        </button>,
+                        "tag": 5,
+                        "treeBaseDuration": 0,
+                        "type": "button",
+                        "updateQueue": null,
+                      },
+                      "stateNode": <label>
+                        Password
+                        <input
+                          id="test-password"
+                          name="password"
+                          placeholder="••••••••"
+                          value=""
+                        />
+                      </label>,
+                      "tag": 5,
+                      "treeBaseDuration": 0,
+                      "type": "label",
+                      "updateQueue": null,
+                    },
+                    "stateNode": <label>
+                      Email address
+                      <input
+                        id="test-email"
+                        name="email"
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />
+                    </label>,
+                    "tag": 5,
+                    "treeBaseDuration": 0,
+                    "type": "label",
+                    "updateQueue": null,
+                  },
+                  "stateNode": null,
+                  "tag": 0,
+                  "treeBaseDuration": 0,
+                  "type": [Function],
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": "form",
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    <Response
+                      props={
+                        Object {
+                          "email": "",
+                          "errors": Object {},
+                          "password": "",
+                          "succesResponse": "",
+                        }
+                      }
+                    />,
+                    <label>
+                      Email address
+                      <input
+                        id="test-email"
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />
+                    </label>,
+                    <label>
+                      Password
+                      <input
+                        id="test-password"
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="••••••••"
+                        value=""
+                      />
+                    </label>,
+                    <button
+                      className="cta"
+                      id="test-button"
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      Register
+                    </button>,
+                  ],
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    <Response
+                      props={
+                        Object {
+                          "email": "",
+                          "errors": Object {},
+                          "password": "",
+                          "succesResponse": "",
+                        }
+                      }
+                    />,
+                    <label>
+                      Email address
+                      <input
+                        id="test-email"
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="e.g name@example.com"
+                        type="text"
+                        value=""
+                      />
+                    </label>,
+                    <label>
+                      Password
+                      <input
+                        id="test-password"
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="••••••••"
+                        value=""
+                      />
+                    </label>,
+                    <button
+                      className="cta"
+                      id="test-button"
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      Register
+                    </button>,
+                  ],
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <form>
+                  <div
+                    class="success"
+                    id="test-success"
+                  >
+                    <div />
+                  </div>
+                  <label>
+                    Email address
+                    <input
+                      id="test-email"
+                      name="email"
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />
+                  </label>
+                  <label>
+                    Password
+                    <input
+                      id="test-password"
+                      name="password"
+                      placeholder="••••••••"
+                      value=""
+                    />
+                  </label>
+                  <button
+                    class="cta"
+                    id="test-button"
+                    type="submit"
+                  >
+                    Register
+                  </button>
+                </form>,
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": "form",
+                "updateQueue": null,
+              },
+              "stateNode": <header>
+                <h1>
+                  HealthShare Front-End Test
+                </h1>
+              </header>,
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": "header",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 0,
+            "elementType": "section",
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <header>
+                  <h1>
+                    HealthShare Front-End Test
+                  </h1>
+                </header>,
+                <form>
+                  <Response
+                    props={
+                      Object {
+                        "email": "",
+                        "errors": Object {},
+                        "password": "",
+                        "succesResponse": "",
+                      }
+                    }
+                  />
+                  <label>
+                    Email address
+                    <input
+                      id="test-email"
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />
+                  </label>
+                  <label>
+                    Password
+                    <input
+                      id="test-password"
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="••••••••"
+                      value=""
+                    />
+                  </label>
+                  <button
+                    className="cta"
+                    id="test-button"
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    Register
+                  </button>
+                </form>,
+              ],
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <header>
+                  <h1>
+                    HealthShare Front-End Test
+                  </h1>
+                </header>,
+                <form>
+                  <Response
+                    props={
+                      Object {
+                        "email": "",
+                        "errors": Object {},
+                        "password": "",
+                        "succesResponse": "",
+                      }
+                    }
+                  />
+                  <label>
+                    Email address
+                    <input
+                      id="test-email"
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />
+                  </label>
+                  <label>
+                    Password
+                    <input
+                      id="test-password"
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="••••••••"
+                      value=""
+                    />
+                  </label>
+                  <button
+                    className="cta"
+                    id="test-button"
+                    onClick={[Function]}
+                    type="submit"
+                  >
+                    Register
+                  </button>
+                </form>,
+              ],
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <section>
+              <header>
+                <h1>
+                  HealthShare Front-End Test
+                </h1>
+              </header>
+              <form>
+                <div
+                  class="success"
+                  id="test-success"
+                >
+                  <div />
+                </div>
+                <label>
+                  Email address
+                  <input
+                    id="test-email"
+                    name="email"
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />
+                </label>
+                <label>
+                  Password
+                  <input
+                    id="test-password"
+                    name="password"
+                    placeholder="••••••••"
+                    value=""
+                  />
+                </label>
+                <button
+                  class="cta"
+                  id="test-button"
+                  type="submit"
+                >
+                  Register
+                </button>
+              </form>
+            </section>,
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": "section",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "dependencies": null,
+          "effectTag": 1,
+          "elementType": [Function],
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {},
+          "memoizedState": Object {
+            "email": "",
+            "errors": Object {},
+            "password": "",
+            "succesResponse": "",
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {},
+          "ref": null,
+          "return": FiberNode {
+            "_debugHookTypes": null,
+            "_debugID": 196,
+            "_debugIsCurrentlyTiming": false,
+            "_debugNeedsRemount": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "dependencies": null,
+            "effectTag": 1,
+            "elementType": [Function],
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {},
+              "wrappingComponentProps": null,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {},
+              "refProp": null,
+              "wrappingComponentProps": null,
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugHookTypes": null,
+              "_debugID": 193,
+              "_debugIsCurrentlyTiming": false,
+              "_debugNeedsRemount": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugHookTypes": null,
+                "_debugID": 193,
+                "_debugIsCurrentlyTiming": false,
+                "_debugNeedsRemount": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "dependencies": null,
+                "effectTag": 0,
+                "elementType": null,
+                "expirationTime": 1073741823,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": FiberRootNode {
+                  "callbackExpirationTime": 0,
+                  "callbackNode": null,
+                  "callbackPriority": 90,
+                  "containerInfo": <div>
+                    <section>
+                      <header>
+                        <h1>
+                          HealthShare Front-End Test
+                        </h1>
+                      </header>
+                      <form>
+                        <div
+                          class="success"
+                          id="test-success"
+                        >
+                          <div />
+                        </div>
+                        <label>
+                          Email address
+                          <input
+                            id="test-email"
+                            name="email"
+                            placeholder="e.g name@example.com"
+                            type="text"
+                            value=""
+                          />
+                        </label>
+                        <label>
+                          Password
+                          <input
+                            id="test-password"
+                            name="password"
+                            placeholder="••••••••"
+                            value=""
+                          />
+                        </label>
+                        <button
+                          class="cta"
+                          id="test-button"
+                          type="submit"
+                        >
+                          Register
+                        </button>
+                      </form>
+                    </section>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedExpirationTime": 0,
+                  "finishedWork": null,
+                  "firstPendingTime": 0,
+                  "firstSuspendedTime": 0,
+                  "hydrate": false,
+                  "interactionThreadID": 18,
+                  "lastExpiredTime": 0,
+                  "lastPingedTime": 0,
+                  "lastSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextKnownPendingLevel": 0,
+                  "pendingChildren": null,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "pingCache": null,
+                  "tag": 0,
+                  "timeoutHandle": -1,
+                },
+                "tag": 3,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseQueue": Object {
+                    "callback": null,
+                    "expirationTime": 1073741823,
+                    "next": [Circular],
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={Object {}}
+                        refProp={null}
+                        wrappingComponentProps={null}
+                      />,
+                    },
+                    "priority": 97,
+                    "suspenseConfig": null,
+                    "tag": 0,
+                  },
+                  "baseState": null,
+                  "effects": null,
+                  "shared": Object {
+                    "pending": null,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "dependencies": null,
+              "effectTag": 0,
+              "elementType": null,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={Object {}}
+                  refProp={null}
+                  wrappingComponentProps={null}
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": FiberRootNode {
+                "callbackExpirationTime": 0,
+                "callbackNode": null,
+                "callbackPriority": 90,
+                "containerInfo": <div>
+                  <section>
+                    <header>
+                      <h1>
+                        HealthShare Front-End Test
+                      </h1>
+                    </header>
+                    <form>
+                      <div
+                        class="success"
+                        id="test-success"
+                      >
+                        <div />
+                      </div>
+                      <label>
+                        Email address
+                        <input
+                          id="test-email"
+                          name="email"
+                          placeholder="e.g name@example.com"
+                          type="text"
+                          value=""
+                        />
+                      </label>
+                      <label>
+                        Password
+                        <input
+                          id="test-password"
+                          name="password"
+                          placeholder="••••••••"
+                          value=""
+                        />
+                      </label>
+                      <button
+                        class="cta"
+                        id="test-button"
+                        type="submit"
+                      >
+                        Register
+                      </button>
+                    </form>
+                  </section>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedExpirationTime": 0,
+                "finishedWork": null,
+                "firstPendingTime": 0,
+                "firstSuspendedTime": 0,
+                "hydrate": false,
+                "interactionThreadID": 18,
+                "lastExpiredTime": 0,
+                "lastPingedTime": 0,
+                "lastSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextKnownPendingLevel": 0,
+                "pendingChildren": null,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "pingCache": null,
+                "tag": 0,
+                "timeoutHandle": -1,
+              },
+              "tag": 3,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseQueue": null,
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={Object {}}
+                    refProp={null}
+                    wrappingComponentProps={null}
+                  />,
+                },
+                "effects": null,
+                "shared": Object {
+                  "pending": null,
+                },
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {},
+                "refProp": null,
+                "wrappingComponentProps": null,
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 1,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": Object {
+              "baseQueue": null,
+              "baseState": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {},
+                "wrappingComponentProps": null,
+              },
+              "effects": null,
+              "shared": Object {
+                "pending": null,
+              },
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 1,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": Object {
+            "baseQueue": null,
+            "baseState": Object {
+              "email": "",
+              "errors": Object {},
+              "password": "",
+              "succesResponse": "",
+            },
+            "effects": null,
+            "shared": Object {
+              "pending": null,
+            },
+          },
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "handleSubmit": [Function],
+        "props": Object {},
+        "refs": Object {},
+        "state": Object {
+          "email": "",
+          "errors": Object {},
+          "password": "",
+          "succesResponse": "",
+        },
+        "updateEmail": [Function],
+        "updatePassword": [Function],
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+        "user": Object {
+          "email": "",
+          "password": "",
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {},
+      "ref": null,
+      "rendered": Object {
+        "instance": <section>
+          <header>
+            <h1>
+              HealthShare Front-End Test
+            </h1>
+          </header>
+          <form>
+            <div
+              class="success"
+              id="test-success"
+            >
+              <div />
+            </div>
+            <label>
+              Email address
+              <input
+                id="test-email"
+                name="email"
+                placeholder="e.g name@example.com"
+                type="text"
+                value=""
+              />
+            </label>
+            <label>
+              Password
+              <input
+                id="test-password"
+                name="password"
+                placeholder="••••••••"
+                value=""
+              />
+            </label>
+            <button
+              class="cta"
+              id="test-button"
+              type="submit"
+            >
+              Register
+            </button>
+          </form>
+        </section>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header>
+              <h1>
+                HealthShare Front-End Test
+              </h1>
+            </header>,
+            <form>
+              <Response
+                props={
+                  Object {
+                    "email": "",
+                    "errors": Object {},
+                    "password": "",
+                    "succesResponse": "",
+                  }
+                }
+              />
+              <label>
+                Email address
+                <input
+                  id="test-email"
+                  name="email"
+                  onChange={[Function]}
+                  placeholder="e.g name@example.com"
+                  type="text"
+                  value=""
+                />
+              </label>
+              <label>
+                Password
+                <input
+                  id="test-password"
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="••••••••"
+                  value=""
+                />
+              </label>
+              <button
+                className="cta"
+                id="test-button"
+                onClick={[Function]}
+                type="submit"
+              >
+                Register
+              </button>
+            </form>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <header>
+              <h1>
+                HealthShare Front-End Test
+              </h1>
+            </header>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h1>
+                HealthShare Front-End Test
+              </h1>,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <h1>
+                  HealthShare Front-End Test
+                </h1>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "HealthShare Front-End Test",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "HealthShare Front-End Test",
+                ],
+                "type": "h1",
+              },
+            ],
+            "type": "header",
+          },
+          Object {
+            "instance": <form>
+              <div
+                class="success"
+                id="test-success"
+              >
+                <div />
+              </div>
+              <label>
+                Email address
+                <input
+                  id="test-email"
+                  name="email"
+                  placeholder="e.g name@example.com"
+                  type="text"
+                  value=""
+                />
+              </label>
+              <label>
+                Password
+                <input
+                  id="test-password"
+                  name="password"
+                  placeholder="••••••••"
+                  value=""
+                />
+              </label>
+              <button
+                class="cta"
+                id="test-button"
+                type="submit"
+              >
+                Register
+              </button>
+            </form>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Response
+                  props={
+                    Object {
+                      "email": "",
+                      "errors": Object {},
+                      "password": "",
+                      "succesResponse": "",
+                    }
+                  }
+                />,
+                <label>
+                  Email address
+                  <input
+                    id="test-email"
+                    name="email"
+                    onChange={[Function]}
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />
+                </label>,
+                <label>
+                  Password
+                  <input
+                    id="test-password"
+                    name="password"
+                    onChange={[Function]}
+                    placeholder="••••••••"
+                    value=""
+                  />
+                </label>,
+                <button
+                  className="cta"
+                  id="test-button"
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  Register
+                </button>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "props": Object {
+                    "email": "",
+                    "errors": Object {},
+                    "password": "",
+                    "succesResponse": "",
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": <div
+                    class="success"
+                    id="test-success"
+                  >
+                    <div />
+                  </div>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div>
+                      
+                    </div>,
+                    "className": "success",
+                    "id": "test-success",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <div />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "",
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": <label>
+                  Email address
+                  <input
+                    id="test-email"
+                    name="email"
+                    placeholder="e.g name@example.com"
+                    type="text"
+                    value=""
+                  />
+                </label>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Email address",
+                    <input
+                      id="test-email"
+                      name="email"
+                      onChange={[Function]}
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Email address",
+                  Object {
+                    "instance": <input
+                      id="test-email"
+                      name="email"
+                      placeholder="e.g name@example.com"
+                      type="text"
+                      value=""
+                    />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "id": "test-email",
+                      "name": "email",
+                      "onChange": [Function],
+                      "placeholder": "e.g name@example.com",
+                      "type": "text",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "input",
+                  },
+                ],
+                "type": "label",
+              },
+              Object {
+                "instance": <label>
+                  Password
+                  <input
+                    id="test-password"
+                    name="password"
+                    placeholder="••••••••"
+                    value=""
+                  />
+                </label>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "Password",
+                    <input
+                      id="test-password"
+                      name="password"
+                      onChange={[Function]}
+                      placeholder="••••••••"
+                      value=""
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Password",
+                  Object {
+                    "instance": <input
+                      id="test-password"
+                      name="password"
+                      placeholder="••••••••"
+                      value=""
+                    />,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "id": "test-password",
+                      "name": "password",
+                      "onChange": [Function],
+                      "placeholder": "••••••••",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      undefined,
+                    ],
+                    "type": "input",
+                  },
+                ],
+                "type": "label",
+              },
+              Object {
+                "instance": <button
+                  class="cta"
+                  id="test-button"
+                  type="submit"
+                >
+                  Register
+                </button>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Register",
+                  "className": "cta",
+                  "id": "test-button",
+                  "onClick": [Function],
+                  "type": "submit",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "Register",
+                ],
+                "type": "button",
+              },
+            ],
+            "type": "form",
+          },
+        ],
+        "type": "section",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__linkedRoots__): Array [],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__updatedBy__): null,
+}
+`;

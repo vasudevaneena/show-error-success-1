@@ -1,0 +1,98 @@
+* {
+    border: 0;
+    text-decoration: none;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+html,
+input,
+button {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+    color: #21184B;
+    -webkit-font-smoothing: subpixel-antialiased;
+    appearance: none;
+    touch-action: manipulation;
+}
+
+header {
+    background-color: rgba(244, 243, 246, 0.95);
+    border-bottom: 2px solid #E9E8ED;
+    text-align: center;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    position: relative;
+    padding: 0 12px 0 30px;
+    margin: 12px 24px;
+}
+
+
+input {
+    background: #FFFFFF;
+    border: 2px solid rgba(33, 24, 75, 0.2);
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 12px 12px 12px 28px;
+    margin: 6px -12px 0 -30px;
+    width: calc(100% + 42px);
+}
+
+input::placeholder {
+    color: rgba(176, 167, 218, 0.2);
+}
+
+input:focus {
+    border-color: #22A8AC;
+    box-shadow: 0 0 0 3px rgba(34, 168, 172, 0.2);
+}
+
+.cta {
+    display: block;
+    border-radius: 3px;
+    background-color: #22A8AC;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 12px 30px;
+    margin: 12px 24px;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: #1D8D90;
+}
+
+.error{
+    color: #D8000C;
+    padding: 0 12px 0 30px;
+    margin: 12px 24px;
+    background-color: #FFD2D2;
+}
+
+.success{
+    color: #4F8A10;
+    padding: 0 12px 0 30px;
+    margin: 12px 24px;
+    background-color: #DFF2BF;
+}
