@@ -26,9 +26,17 @@ class App extends Component {
     const value = event.target.value;
     this.user[name] = value;
     if (name === "email") {
-      this.setState({ email: value });
+    //   this.setState(function(state){
+    //     return { email: value }
+    //  });
+     this.setState({ email: value },()=>{
+       console.log(this.state);
+     });
     } else {
-      this.setState({ password: value });
+    //   this.setState(function(state){
+    //     return { password: value }
+    //  });
+      this.setState({ password: value },()=>{});
     }
   }
 
